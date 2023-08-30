@@ -1,0 +1,31 @@
+1. Install Monogodb:
+
+We must first install Monogodb.
+
+2. establishing the backend:
+
+Open a terminal and go to your project's root directory, where the server.js file is located.
+
+Set up the necessary dependencies: Npm install mongoose cors body-parser express
+
+Launch node server.js, the backend server
+
+3. Configuring the Frontend:
+
+Navigate to the client directory inside your project by opening a second terminal window or tab.
+
+Install the necessary frontend dependencies with the following command: npm install axios react-big-calendar moment
+
+the front-end development server should be started. npm start
+
+You should now be able to access the frontend development server at http://localhost:3000.
+
+
+
+
+
+
+
+Routes in the backend for adding and removing events:server.js
+
+a backend that talks to a react frontend to display and manage events:React.js(src/components/Calendar.js)
